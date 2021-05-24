@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		D165BC1A2646E2D20066979C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165BC192646E2D20066979C /* AppDelegate.swift */; };
 		D165BC1C2646E2D20066979C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165BC1B2646E2D20066979C /* SceneDelegate.swift */; };
-		D165BC1E2646E2D20066979C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165BC1D2646E2D20066979C /* ViewController.swift */; };
-		D165BC212646E2D20066979C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D165BC1F2646E2D20066979C /* Main.storyboard */; };
 		D165BC232646E2D40066979C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D165BC222646E2D40066979C /* Assets.xcassets */; };
 		D165BC262646E2D40066979C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D165BC242646E2D40066979C /* LaunchScreen.storyboard */; };
 		D165BC312646E2D40066979C /* PageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165BC302646E2D40066979C /* PageControlTests.swift */; };
 		D165BC3C2646E2D40066979C /* PageControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165BC3B2646E2D40066979C /* PageControlUITests.swift */; };
+		D165BC4A2646E51B0066979C /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165BC492646E51B0066979C /* ExampleViewController.swift */; };
+		D165BC4C2646E5530066979C /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165BC4B2646E5530066979C /* CustomPageViewController.swift */; };
+		D165BC4E2646E5B30066979C /* DemoCustomPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165BC4D2646E5B30066979C /* DemoCustomPagingViewController.swift */; };
+		D1C66CF4264AC3E200C369EB /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C66CF3264AC3E200C369EB /* CustomPageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,6 @@
 		D165BC162646E2D20066979C /* PageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D165BC192646E2D20066979C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D165BC1B2646E2D20066979C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D165BC1D2646E2D20066979C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D165BC202646E2D20066979C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D165BC222646E2D40066979C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D165BC252646E2D40066979C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D165BC272646E2D40066979C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,10 @@
 		D165BC372646E2D40066979C /* PageControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D165BC3B2646E2D40066979C /* PageControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlUITests.swift; sourceTree = "<group>"; };
 		D165BC3D2646E2D40066979C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D165BC492646E51B0066979C /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		D165BC4B2646E5530066979C /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
+		D165BC4D2646E5B30066979C /* DemoCustomPagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCustomPagingViewController.swift; sourceTree = "<group>"; };
+		D1C66CF3264AC3E200C369EB /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,15 @@
 		D165BC182646E2D20066979C /* PageControl */ = {
 			isa = PBXGroup;
 			children = (
+				D1C66CF2264AC37800C369EB /* PageControl */,
 				D165BC192646E2D20066979C /* AppDelegate.swift */,
 				D165BC1B2646E2D20066979C /* SceneDelegate.swift */,
-				D165BC1D2646E2D20066979C /* ViewController.swift */,
-				D165BC1F2646E2D20066979C /* Main.storyboard */,
 				D165BC222646E2D40066979C /* Assets.xcassets */,
 				D165BC242646E2D40066979C /* LaunchScreen.storyboard */,
 				D165BC272646E2D40066979C /* Info.plist */,
+				D165BC492646E51B0066979C /* ExampleViewController.swift */,
+				D165BC4B2646E5530066979C /* CustomPageViewController.swift */,
+				D165BC4D2646E5B30066979C /* DemoCustomPagingViewController.swift */,
 			);
 			path = PageControl;
 			sourceTree = "<group>";
@@ -126,6 +132,14 @@
 				D165BC3D2646E2D40066979C /* Info.plist */,
 			);
 			path = PageControlUITests;
+			sourceTree = "<group>";
+		};
+		D1C66CF2264AC37800C369EB /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				D1C66CF3264AC3E200C369EB /* CustomPageControl.swift */,
+			);
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +247,6 @@
 			files = (
 				D165BC262646E2D40066979C /* LaunchScreen.storyboard in Resources */,
 				D165BC232646E2D40066979C /* Assets.xcassets in Resources */,
-				D165BC212646E2D20066979C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D165BC1E2646E2D20066979C /* ViewController.swift in Sources */,
+				D165BC4E2646E5B30066979C /* DemoCustomPagingViewController.swift in Sources */,
+				D1C66CF4264AC3E200C369EB /* CustomPageControl.swift in Sources */,
+				D165BC4C2646E5530066979C /* CustomPageViewController.swift in Sources */,
+				D165BC4A2646E51B0066979C /* ExampleViewController.swift in Sources */,
 				D165BC1A2646E2D20066979C /* AppDelegate.swift in Sources */,
 				D165BC1C2646E2D20066979C /* SceneDelegate.swift in Sources */,
 			);
@@ -296,14 +312,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D165BC1F2646E2D20066979C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D165BC202646E2D20066979C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D165BC242646E2D40066979C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K6GZTHQ9Z5;
 				INFOPLIST_FILE = PageControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K6GZTHQ9Z5;
 				INFOPLIST_FILE = PageControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
